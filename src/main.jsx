@@ -8,3 +8,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+// import './App.css'
+  
+// import Head from './Head'
+
+// function App() {
+//     return (
+//     <>
+//       <Head></Head>
+//     </>
+//   )
+// }
+
+// export default App
