@@ -1,0 +1,25 @@
+.start {
+    position: relative;
+    width: calc(100vw);
+    height: calc(100vh - 60px); /* минус высота меню */
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: center;
+}
+
+
+.webName {
+    font-family: 'Neucha';
+    text-align: center;
+    color: #000000;
+    font-size: 105px;
+    width: calc(100vw/3);
+
+}
+
+.description {
+    width: calc(100vw/3);
+
+}

@@ -1,23 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+// import Modeled from './Modeled.jsx'
 import App from './App.jsx'
-import './index.css'
+import './style/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    {/* <Modeled /> */}
     <App />
   </React.StrictMode>,
 )
-// import './App.css'
-  
-// import Head from './Head'
 
-// function App() {
-//     return (
-//     <>
-//       <Head></Head>
-//     </>
-//   )
-// }
-
-// export default App
+ 

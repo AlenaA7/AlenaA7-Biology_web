@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Neucha"; 
+  src: url("../fonts/neucha.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "Comfortaa"; 
+  src: url("../fonts/Comfortaa.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+/* 
+:root {
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+} */
+
+body {
+  font-family: 'Comfortaa';
+  font-size: 24px;
+  line-height: 40px;
+  color: #000000;
+  place-items: center;
+  width: calc(100vw);
+  height: calc(100vh);
+ 
+}
+
+.content {
+  margin-top: 60px;
+  z-index: 0;
+}
+
+.empty {
+  height: calc(50vh);
+
+}
+
+h2 {
+  font-family: 'Neucha';
+  color: #000000;
+  font-size: 85px;
+  font-weight: normal;
+  text-align: center;
+
+}
+
+button {
+  border-radius: 3px;
+  border: 1px solid transparent;
+  border-color: #6BA45A;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #E3FFBF;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  background-color: #D4AA84;
+  border-color: #9D8C4E;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}

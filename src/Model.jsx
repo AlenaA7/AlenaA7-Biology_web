@@ -19,8 +19,8 @@ export default function Model(props) {
         <group name="Armature" rotation={[0.774, 0.231, -0.063]}>
           <primitive object={nodes.Bone} />
           <primitive object={nodes.Bone001} />
-          <skinnedMesh name="Cube" geometry={nodes.Cube.geometry} material={materials.Material} skeleton={nodes.Cube.skeleton} />
-          <skinnedMesh name="Cylinder" geometry={nodes.Cylinder.geometry} material={materials['Material.001']} skeleton={nodes.Cylinder.skeleton} />
+          <skinnedMesh castShadow name="Cube" geometry={nodes.Cube.geometry} material={materials.Material} skeleton={nodes.Cube.skeleton} />
+          <skinnedMesh castShadow name="Cylinder" geometry={nodes.Cylinder.geometry} material={materials['Material.001']} skeleton={nodes.Cylinder.skeleton} />
         </group>
       </group>
     </group>

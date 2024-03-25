@@ -1,0 +1,33 @@
+.theme {
+    width: calc(100vw);
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: stretch;
+}
+
+.theme_text {
+    width: calc(100vw/3);
+    display: flex;
+    flex-direction: column;
+	justify-content: space-evenly;
+}
+
+
+.theme_img {
+    width: calc(100vw/3);
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.theme_img img{
+    width: calc(100vw/3);
+  
+}

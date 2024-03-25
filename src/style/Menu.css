@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  
+.menu{
+    position: fixed; 
+    width: calc(100vw);
+    top:0;
+    z-index: 2;
+}
+
+.menu ul {
+    list-style: none; /*убираем маркеры списка*/ 
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding: 0; /*убираем левый отступ, равный 40px*/
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: stretch;
+
+}
+.menu button{
+    flex-grow: 1;
+    width: calc(100vw/2); /* 2 - количсевто пунктов в меню */
+    font-family: 'Comfortaa';
+    height: 60px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    border-color: #6BA45A;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #E3FFBF;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+.menu  button:hover {
+    font-family: 'Neucha';
+    background-color: #D4AA84;
+    border-color: #9D8C4E;
+    text-transform: uppercase;
+    font-weight: bold;
+  
+  }
