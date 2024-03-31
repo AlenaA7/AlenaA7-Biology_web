@@ -2,7 +2,7 @@ import './style/index.css'
   
 import Menu from './Menu'
 import Start from './Start'
-import Theme from './Theme'
+import List from './List'
 import Modeled from './Modeled'
 
 
@@ -14,7 +14,7 @@ function App() {
       <div className='content'>
         <Start />
         <div className='empty' ></div>
-        <Theme />
+        <List />
         <div className='empty' ></div>
 
         <Modeled />

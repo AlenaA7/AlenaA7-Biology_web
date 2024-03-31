@@ -2,7 +2,7 @@ import './style/Modeled.css'
 import { useState, useRef, Suspense } from 'react'
 import { Canvas,  } from '@react-three/fiber'
 import { OrbitControls, useGLTF, useAnimations } from '@react-three/drei'
-import Model from './Model.jsx'
+import Model from './Profaza.jsx'
 
 
 function Modeled() {

@@ -57,20 +57,20 @@ h2 {
 }
 
 button {
-  border-radius: 3px;
-  border: 1px solid transparent;
-  border-color: #6BA45A;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #E3FFBF;
   cursor: pointer;
-  transition: border-color 0.25s;
+  border: none;
+  background-color: transparent ;
 }
+
 button:hover {
-  background-color: #D4AA84;
-  border-color: #9D8C4E;
+  background-image: url('/public/selection.png');
+  /* background-color: #D4AA84; */
+  background-size: contain;
+  border: none;
   text-transform: uppercase;
   font-weight: bold;
 

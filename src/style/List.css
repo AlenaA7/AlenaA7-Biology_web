@@ -22,12 +22,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
 }
 
 .theme_img img{
     width: calc(100vw/3);
   
 }
+
+.theme_text:hover ~ #cube { background-color: yellow; }

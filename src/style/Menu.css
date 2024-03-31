@@ -39,11 +39,17 @@
     cursor: pointer;
     transition: border-color 0.25s;
   }
+
 .menu  button:hover {
     font-family: 'Neucha';
     background-color: #D4AA84;
     border-color: #9D8C4E;
     text-transform: uppercase;
     font-weight: bold;
+    background-image: none;
   
   }
+
+#home {
+  
+}

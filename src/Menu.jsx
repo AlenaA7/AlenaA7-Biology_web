@@ -9,7 +9,7 @@ export default function Head() {
             <button href="#home" > Главная</button>
         </li>
         <li>
-            <button >Темы</button>
+            <button > Темы </button>
         </li>
     </ul> 
     </div>

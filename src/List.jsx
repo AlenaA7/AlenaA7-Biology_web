@@ -1,4 +1,4 @@
-import './style/Theme.css';
+import './style/List.css';
 
 
 export default function Theme() {
@@ -10,10 +10,10 @@ export default function Theme() {
           <div>На данный момент на сайте представлены следущие темы:</div>
           <ul>
               <li>
-                  <button > Митоз</button>
+                  <button id='mitoz'> Митоз</button>
               </li>
               <li>
-                  <button >Meйоз</button>
+                  <button id='meyoz'>Meйоз</button>
               </li>
             </ul> 
         </div>
