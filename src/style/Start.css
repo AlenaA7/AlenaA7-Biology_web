@@ -1,6 +1,5 @@
 .start {
     position: relative;
-    width: calc(100vw);
     height: calc(100vh - 60px); /* минус высота меню */
     display: flex;
 	flex-direction: row;

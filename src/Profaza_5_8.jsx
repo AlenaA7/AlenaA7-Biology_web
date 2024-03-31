@@ -4,7 +4,7 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 
 export default function Model(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('./public/Profaza/Profaza.gltf')
+  const { nodes, materials, animations } = useGLTF('./public/Profaza_5_8/Profaza_5_8.gltf')
   const { actions } = useAnimations(animations, group)
   return (
     <group ref={group} {...props} dispose={null}>
@@ -45,14 +45,9 @@ export default function Model(props) {
           <primitive object={nodes.Bone139} />
           <primitive object={nodes.Bone129} />
           <primitive object={nodes.Bone003} />
-          <primitive object={nodes.Bone094} />
-          <primitive object={nodes.Bone095} />
-          <primitive object={nodes.Bone207} />
           <primitive object={nodes.Bone208} />
           <primitive object={nodes.Bone210} />
           <primitive object={nodes.Bone209} />
-          <primitive object={nodes.Bone211} />
-          <primitive object={nodes.Bone212} />
           <group name="Centriol1">
             <skinnedMesh name="Cylinder011" geometry={nodes.Cylinder011.geometry} material={materials['Material.004']} skeleton={nodes.Cylinder011.skeleton} />
             <skinnedMesh name="Cylinder011_1" geometry={nodes.Cylinder011_1.geometry} material={materials['Material.003']} skeleton={nodes.Cylinder011_1.skeleton} />
@@ -98,21 +93,9 @@ export default function Model(props) {
           <skinnedMesh name="Vereteno8" geometry={nodes.Vereteno8.geometry} material={materials['Material.006']} skeleton={nodes.Vereteno8.skeleton} />
         </group>
         <group name="Empty" position={[-0.001, -0.005, 0]} />
-        <group name="Hromosoma_blue1001" position={[13.026, 0.794, 0.025]} rotation={[-Math.PI / 2, 0, 0]} scale={[0.404, 0.464, 0.464]}>
-          <mesh name="BezierCurve022" geometry={nodes.BezierCurve022.geometry} material={materials['Material.017']} />
-          <mesh name="BezierCurve022_1" geometry={nodes.BezierCurve022_1.geometry} material={materials['Material.016']} />
-        </group>
-        <group name="Hromosoma_blue1002" position={[14.103, -0.018, 0.025]} rotation={[-Math.PI / 2, 0, 0]} scale={[0.404, 0.464, 0.464]}>
-          <mesh name="BezierCurve023" geometry={nodes.BezierCurve023.geometry} material={materials['Material.017']} />
-          <mesh name="BezierCurve023_1" geometry={nodes.BezierCurve023_1.geometry} material={materials['Material.016']} />
-        </group>
-        <group name="Hromosoma_blue1003" position={[14.103, 0.794, 0.025]} rotation={[-Math.PI / 2, 0, 0]} scale={[0.404, 0.464, 0.464]}>
-          <mesh name="BezierCurve024" geometry={nodes.BezierCurve024.geometry} material={materials['Material.017']} />
-          <mesh name="BezierCurve024_1" geometry={nodes.BezierCurve024_1.geometry} material={materials['Material.016']} />
-        </group>
       </group>
     </group>
   )
 }
 
-useGLTF.preload('./public/Profaza/Profaza.gltf')
+useGLTF.preload('./public/Profaza_5_8/Profaza_5_8.gltf')

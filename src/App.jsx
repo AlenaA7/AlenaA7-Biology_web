@@ -3,7 +3,6 @@ import './style/index.css'
 import Menu from './Menu'
 import Start from './Start'
 import List from './List'
-import Modeled from './Modeled'
 
 
 function App() {
@@ -16,8 +15,6 @@ function App() {
         <div className='empty' ></div>
         <List />
         <div className='empty' ></div>
-
-        <Modeled />
       </div>
     </div>
     </>

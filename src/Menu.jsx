@@ -6,10 +6,10 @@ export default function Head() {
     <div className='menu'> 
     <ul>
         <li>
-            <button href="#home" > Главная</button>
+            <a href="./index.html" ><button > Главная</button></a>
         </li>
         <li>
-            <button > Темы </button>
+            <a href="./theme.html"><button > Темы </button></a>
         </li>
     </ul> 
     </div>

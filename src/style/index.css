@@ -38,6 +38,11 @@ body {
 }
 
 .content {
+  margin: 0 auto;
+  max-width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   margin-top: 60px;
   z-index: 0;
 }
@@ -48,6 +53,7 @@ body {
 }
 
 h2 {
+  padding: 10vh;
   font-family: 'Neucha';
   color: #000000;
   font-size: 85px;

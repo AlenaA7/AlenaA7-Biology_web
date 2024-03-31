@@ -10,10 +10,10 @@ export default function Theme() {
           <div>На данный момент на сайте представлены следущие темы:</div>
           <ul>
               <li>
-                  <button id='mitoz'> Митоз</button>
+                  <a href="mitoz.html"><button id='mitoz' > Митоз</button></a>
               </li>
               <li>
-                  <button id='meyoz'>Meйоз</button>
+                 <a><button id='meyoz'>Meйоз</button></a>
               </li>
             </ul> 
         </div>
