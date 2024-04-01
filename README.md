@@ -1,4 +1,6 @@
 # React + Vite
+Веб-сайт с визуализацией биологических процессов. 
+http://bioview.testsite55.ru/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
